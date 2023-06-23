@@ -1,0 +1,10 @@
+initialPrice = float(input("What is the price of the goods?"))
+tip = float(input("What is the tip percentage? 12, 15 or 20?"))
+People = int(input("How many people to split the bill?"))
+tipPer = float(initialPrice*tip/100)
+priceIncTip = float(initialPrice+tipPer)
+eachPay = priceIncTip / People
+print ("The total price is: ")
+print("%.2f" % priceIncTip)
+print("Each should pay: ")
+print("%.2f" % eachPay)
