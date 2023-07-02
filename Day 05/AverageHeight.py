@@ -1,5 +1,5 @@
 #Not allowed to use len() or sum()
-students_heights = input("What is your height?")
+students_heights = input("Write students heights seperated by space!\n")
 listOfStudents = students_heights.split(" ")
 totalHeight = 0
 
