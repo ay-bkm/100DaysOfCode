@@ -79,7 +79,7 @@ while "_" in display and lives > 0:
         lives -= 1
         print(stages[lives])
             
-    print(display) 
+    print(f"{' '.join(display)}")
 if lives == 0:
     print("You lose!")
 else:
