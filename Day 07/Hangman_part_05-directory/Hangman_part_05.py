@@ -1,9 +1,10 @@
 import random
-import stages
+import art
 import word_list
 
 lives = 6
 
+print(art.logo)
 
 chosen_word = random.choice(word_list.word_list)
 print(f'Pssst, the solution is {chosen_word}')
@@ -29,7 +30,7 @@ while "_" in display and lives > 0:
              print(f"{guess} don't exist in the word.")    
     if found == False:
         lives -= 1
-        print(stages.stages[lives])
+        print(art.stages[lives])
     
             
     print(f"{' '.join(display)}")
