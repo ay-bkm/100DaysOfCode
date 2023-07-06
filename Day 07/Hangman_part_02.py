@@ -16,3 +16,4 @@ while "_" in display:
             display[index] = guess
     print(display) 
 
+print("You won!")
